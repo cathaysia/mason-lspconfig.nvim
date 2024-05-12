@@ -16,7 +16,7 @@
     <code>:help mason-lspconfig.nvim</code>
 </p>
 <p align="center">
-    <sup>Latest version: v1.28.0</sup> <!-- x-release-please-version -->
+    <sup>Latest version: v1.29.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
@@ -202,6 +202,7 @@ local DEFAULT_SETTINGS = {
 | COBOL                               | `cobol_ls`                        |
 | CSS                                 | `cssls`                           |
 | CSS                                 | `cssmodules_ls`                   |
+| CSS                                 | `css_variables`                   |
 | CSS                                 | `unocss`                          |
 | Clarity                             | `clarity_lsp`                     |
 | Clojure                             | `clojure_lsp`                     |
@@ -252,6 +253,7 @@ local DEFAULT_SETTINGS = {
 | HDL                                 | `hdl_checker`                     |
 | HTML                                | `html`                            |
 | HTMX                                | `htmx`                            |
+| Harper                              | `harper_ls`                       |
 | Haskell                             | `hls`                             |
 | Haxe                                | `haxe_language_server`            |
 | Helm                                | `helm_ls`                         |
@@ -348,6 +350,7 @@ local DEFAULT_SETTINGS = {
 | Sphinx                              | `esbonio`                         |
 | Standard ML                         | `millet`                          |
 | Starlark                            | `bzl`                             |
+| Starlark                            | `starlark_rust`                   |
 | Stylelint                           | `stylelint_lsp`                   |
 | Svelte                              | `svelte`                          |
 | Stimulus                            | `stimulus_ls`                     |
