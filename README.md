@@ -16,7 +16,7 @@
     <code>:help mason-lspconfig.nvim</code>
 </p>
 <p align="center">
-    <sup>Latest version: v1.30.0</sup> <!-- x-release-please-version -->
+    <sup>Latest version: v1.31.0</sup> <!-- x-release-please-version -->
 </p>
 
 # Table of Contents
@@ -229,6 +229,7 @@ local DEFAULT_SETTINGS = {
 | Earthly | [`earthlyls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#earthlyls) |
 | Elixir | [`elixirls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elixirls) |
 | Elixir | [`lexical`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lexical) |
+| Elixir | [`nextls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#nextls) |
 | Elm | [`elmls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#elmls) |
 | Ember | [`ember`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ember) |
 | Emmet | [`emmet_language_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#emmet_language_server) |
@@ -277,7 +278,7 @@ local DEFAULT_SETTINGS = {
 | JavaScript | [`lwc_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#lwc_ls) |
 | JavaScript | [`quick_lint_js`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#quick_lint_js) |
 | JavaScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) |
-| JavaScript | [`tsserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) |
+| JavaScript | [`ts_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ts_ls) |
 | JavaScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) |
 | Jinja | [`jinja_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jinja_lsp) |
 | Jq | [`jqls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#jqls) |
@@ -384,6 +385,7 @@ local DEFAULT_SETTINGS = {
 | SCSS | [`somesass_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#somesass_ls) |
 | Slint | [`slint_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#slint_lsp) |
 | Smithy | [`smithy_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#smithy_ls) |
+| Snakeskin | [`snakeskin_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snakeskin_ls) |
 | Snyk | [`snyk_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#snyk_ls) |
 | Solidity | [`solang`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solang) |
 | Solidity | [`solc`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#solc) |
@@ -422,8 +424,9 @@ local DEFAULT_SETTINGS = {
 | TypeScript | [`harper_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#harper_ls) |
 | TypeScript | [`quick_lint_js`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#quick_lint_js) |
 | TypeScript | [`rome`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#rome) |
-| TypeScript | [`tsserver`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsserver) |
+| TypeScript | [`ts_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#ts_ls) |
 | TypeScript | [`vtsls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vtsls) |
+| Typespec | [`tsp_server`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tsp_server) |
 | Typst | [`tinymist`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#tinymist) |
 | Typst | [`typst_lsp`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#typst_lsp) |
 | Vala | [`vala_ls`](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#vala_ls) |

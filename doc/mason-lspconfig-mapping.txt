@@ -117,6 +117,7 @@ motoko-lsp                                motoko_lsp
 move-analyzer                             move_analyzer
 mutt-language-server                      mutt_ls
 neocmakelsp                               neocmake
+nextls                                    nextls
 nginx-language-server                     nginx_language_server
 nickel-lang-lsp                           nickel_ls
 nil                                       nil_ls
@@ -164,6 +165,7 @@ serve-d                                   serve_d
 shopify-cli                               shopify_theme_ls
 slint-lsp                                 slint_lsp
 smithy-language-server                    smithy_ls
+snakeskin-cli                             snakeskin_ls
 snyk-ls                                   snyk_ls
 solang                                    solang
 solargraph                                solargraph
@@ -198,7 +200,8 @@ tflint                                    tflint
 shopify-theme-check                       theme_check
 thriftls                                  thriftls
 tinymist                                  tinymist
-typescript-language-server                tsserver
+typescript-language-server                ts_ls
+tsp-server                                tsp_server
 twiggy-language-server                    twiggy_language_server
 typos-lsp                                 typos_lsp
 typst-lsp                                 typst_lsp
